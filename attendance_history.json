@@ -1,0 +1,348 @@
+{
+    "HARIKAA": {
+        "records": {
+            "19-09-2025": "A",
+            "20-09-2025": "P"
+        },
+        "streak": 4,
+        "highest_streak": 5,
+        "total_days": 50,
+        "present_days": 2,
+        "total_present": 15
+    },
+    "hariks.jpg": {
+        "records": {
+            "19-09-2025": "A",
+            "20-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0,
+        "total_days": 7,
+        "total_present": 0
+    },
+    "krishna": {
+        "records": {
+            "19-09-2025": "A",
+            "20-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 2,
+        "total_days": 41,
+        "total_present": 2
+    },
+    "nandu ": {
+        "records": {
+            "19-09-2025": "A",
+            "20-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 1,
+        "total_days": 39,
+        "total_present": 0
+    },
+    "viddu.jpg": {
+        "records": {
+            "19-09-2025": "A",
+            "20-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 3,
+        "total_days": 7,
+        "present_days": 2,
+        "total_present": 0
+    },
+    "vidwan.jpg": {
+        "records": {
+            "19-09-2025": "P",
+            "20-09-2025": "P"
+        },
+        "streak": 1,
+        "highest_streak": 19,
+        "total_days": 39,
+        "present_days": 2,
+        "total_present": 29
+    },
+    "HARIKS.JPG": {
+        "records": {
+            "19-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0
+    },
+    "KRISHNA": {
+        "records": {
+            "19-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0
+    },
+    "NANDU ": {
+        "records": {
+            "19-09-2025": "P"
+        },
+        "streak": 1,
+        "highest_streak": 1
+    },
+    "VIDDU.JPG": {
+        "records": {
+            "19-09-2025": "P"
+        },
+        "streak": 1,
+        "highest_streak": 1
+    },
+    "VIDWAN.JPG": {
+        "records": {
+            "19-09-2025": "P"
+        },
+        "streak": 1,
+        "highest_streak": 1
+    },
+    "ganesh": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "P"
+        },
+        "streak": 1,
+        "highest_streak": 1,
+        "total_days": 19,
+        "total_present": 2
+    },
+    "saicharan": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 1,
+        "total_days": 19,
+        "total_present": 1
+    },
+    "madhan": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0,
+        "total_days": 19,
+        "total_present": 0
+    },
+    "lalshaw": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0,
+        "total_days": 19,
+        "total_present": 0
+    },
+    "prasana kumar": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0,
+        "total_days": 19,
+        "total_present": 0
+    },
+    "abhishek": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0,
+        "total_days": 19,
+        "total_present": 0
+    },
+    "anudeep": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0,
+        "total_days": 19,
+        "total_present": 0
+    },
+    "mustafa": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0,
+        "total_days": 19,
+        "total_present": 0
+    },
+    "akif": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0,
+        "total_days": 19,
+        "total_present": 0
+    },
+    "ashok": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0,
+        "total_days": 19,
+        "total_present": 0
+    },
+    "pavan": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0,
+        "total_days": 19,
+        "total_present": 0
+    },
+    "chandra shekar": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0,
+        "total_days": 19,
+        "total_present": 0
+    },
+    "murari": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0,
+        "total_days": 19,
+        "total_present": 0
+    },
+    "arun": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0,
+        "total_days": 19,
+        "total_present": 0
+    },
+    "karthik": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0,
+        "total_days": 19,
+        "total_present": 0
+    },
+    "kaushal": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0,
+        "total_days": 19,
+        "total_present": 0
+    },
+    "chandan": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0,
+        "total_days": 19,
+        "total_present": 0
+    },
+    "sai ganesh": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0,
+        "total_days": 19,
+        "total_present": 0
+    },
+    "SHAHEID": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0,
+        "total_days": 19,
+        "total_present": 0
+    },
+    "Nandu": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 0,
+        "total_days": 14,
+        "total_present": 0
+    },
+    "Vidwan": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 1,
+        "total_days": 14,
+        "total_present": 1
+    },
+    "Harika": {
+        "records": {
+            "20-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 2,
+        "total_days": 9,
+        "total_present": 3
+    },
+    "DKC": {
+        "records": {
+            "20-09-2025": "P"
+        },
+        "streak": 1,
+        "highest_streak": 1,
+        "total_days": 9,
+        "total_present": 1
+    },
+    "Akhii": {
+        "records": {
+            "20-09-2025": "P",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 1,
+        "total_days": 5,
+        "total_present": 1
+    },
+    "Krishna": {
+        "records": {
+            "20-09-2025": "A",
+            "21-09-2025": "A"
+        },
+        "streak": 0,
+        "highest_streak": 1,
+        "total_days": 5,
+        "total_present": 1
+    }
+}

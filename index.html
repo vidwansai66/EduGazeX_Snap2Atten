@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📊 Smart Attendance Dashboard</title>
+<link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<!-- SPLASH LOGO -->
+<div id="splashOverlay">
+    <img src="{{ url_for('static', filename='app_logo.jpg') }}" alt="App Logo" class="logo-img">
+</div>
+
+<!-- MAIN DASHBOARD -->
+<div id="mainContent" class="container" style="display:none;">
+<h1>📊 Smart Attendance Dashboard</h1>
+<div class="main-layout">
+
+  <!-- LEFT PANEL -->
+  <div class="left-panel card">
+    <div class="camera-section">
+      <canvas id="videoCanvas"></canvas><br>
+      <button id="openCameraBtn">🎥 Open Camera</button>
+      <button id="captureBtn" disabled>📷 Capture Attendance</button>
+      <div id="statusText" style="margin-top:5px; font-weight:bold;"></div>
+    </div>
+    <div class="table-section">
+      <h2>📌 Attendance Records</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>S.NO</th><th>Name</th><th>Status</th><th>Streak</th>
+            <th>Highest Streak</th><th>Total Days</th><th>Present</th><th>Avg (%)</th><th>Graph</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for s in students %}
+          <tr class="{{ 'present' if s.status=='P' else 'absent' }}">
+            <td>{{ s.sno }}</td>
+            <td>{{ s.name }}</td>
+            <td>{{ s.status }}</td>
+            <td>{{ s.streak }}</td>
+            <td>{{ s.highest_streak }}</td>
+            <td>{{ s.total_days }}</td>
+            <td>{{ s.total_present }}</td>
+            <td>{{ s.avg_attendance }}</td>
+            <td>
+              {% if s.total_days>0 %}
+                <img src="{{ url_for('static', filename='AttendanceGraphs/' + s.name + '_attendance.png') }}" class="graph-img">
+              {% else %}-{% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- RIGHT PANEL -->
+  <div class="right-panel card">
+    <h2>🏆 Highest Streak Leaderboard</h2>
+    <ul class="leaderboard">
+      {% for s in leaderboard %}
+        <li>{{ s.name }} — 🔥 {{ s.highest_streak }} days</li>
+      {% endfor %}
+    </ul>
+    <h2>📈 Average Attendance</h2>
+    <img src="{{ url_for('static', filename='AttendanceGraphs/average_attendance.png') }}" class="big-graph">
+  </div>
+
+</div>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
